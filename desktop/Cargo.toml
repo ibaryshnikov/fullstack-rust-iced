@@ -1,0 +1,14 @@
+[package]
+name = "desktop"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+[dependencies.iced]
+version = "0.14"
+default-features = false
+features = ["advanced", "tokio", "wgpu", "x11"]
+
+[dependencies.client-shared]
+path = "../client-shared"
