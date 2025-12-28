@@ -22,4 +22,4 @@ cargo install wasm-bindgen-cli --version 0.2.105
 # Then build the client for WebAssembly target
 cd web
 ./build.sh
-# then navigate to http://127.0.0.1/client
+# then navigate to http://127.0.0.1:8080/client
